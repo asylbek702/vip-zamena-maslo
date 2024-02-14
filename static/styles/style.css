@@ -4,7 +4,23 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #ffffff, #ffffff);
-    color: #333;  
+    color: #333;
+    background-image: url('https://goo.su/CZiMATo'); /* Замените на актуальный URL вашего изображения */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ... (остальные стили остаются без изменений) */
+
+/* Медиа-запросы для адаптации под мобильные устройства */
+@media only screen and (max-width: 600px) {
+    /* Общие стили для всей страницы */
+    body {
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+    }
+
+    /* ... (остальные стили остаются без изменений) */
 }
 
 /* Общие стили для основных блоков: header, nav, section, footer */
