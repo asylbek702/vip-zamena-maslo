@@ -1,14 +1,9 @@
 /* Общие стили для всей страницы */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-image: url('https://img5.lalafo.com/i/posters/api/6f/b0/ff/c7e53ae52774cfd0f9a9fdaf5d.jpeg');
-    background-size: cover;
-    background-position: center;
+  body {
+    background-image: url('background.jpg');
     background-repeat: no-repeat;
-}
+    background-size: cover;
+  }
 
 /* ... (остальные стили остаются без изменений) */
 
