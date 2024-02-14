@@ -3,9 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #ffffff, #ffffff);
     color: #333;
-    background-image: url('https://goo.su/CZiMATo'); /* Замените на актуальный URL вашего изображения */
+    background-image: url('https://img5.lalafo.com/i/posters/api/6f/b0/ff/c7e53ae52774cfd0f9a9fdaf5d.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +21,7 @@ body {
 
     /* ... (остальные стили остаются без изменений) */
 }
+
 
 /* Общие стили для основных блоков: header, nav, section, footer */
 header, nav, section, footer {
