@@ -20,11 +20,11 @@ header, nav, section, footer {
 
 /* Стили для заголовка в шапке страницы */
 header {
-    text-align: center; /* Центрирование содержимого внутри header */
+    text-align: center;
 }
 
 header h1 {
-    color: #000000;
+    color: #000;
     font-size: 36px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin: 0;
@@ -46,14 +46,14 @@ nav {
 nav a {
     margin-right: 20px;
     text-decoration: none;
-    color: #000000;
+    color: #000;
     font-weight: bold;
     display: inline-block;
 }
 
 /* Стили для заголовков разделов */
 section h2 {
-    color: #000000;
+    color: #000;
     text-align: center;
 }
 
@@ -71,8 +71,8 @@ section h2 {
     margin: 0 auto;
     max-width: 100%;
     border-radius: 10px;
-    margin-bottom: 0px;
-    border: 0px solid #ddd;
+    margin-bottom: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -108,7 +108,7 @@ section h2 {
 
 /* Стили для изображений в списке продуктов */
 #menu-list img {
-    width: 100%; /* Изменено значение ширины для адаптации под мобильные устройства */
+    width: 100%;
     height: auto;
     border-bottom: 1px solid #ddd;
     display: block;
@@ -157,7 +157,7 @@ footer {
 header img[src="https://cdn.worldvectorlogo.com/logos/wuerth-logo-1.svg"]{
     max-width: 40%;
     height: auto;
-    margin-top: 10px; /* Регулируйте отступ вверх по вашему усмотрению */
+    margin-top: 10px;
 }
 
 /* Стили для блока контактов */
@@ -182,16 +182,6 @@ header img[src="https://cdn.worldvectorlogo.com/logos/wuerth-logo-1.svg"]{
 .contact-info a {
     color: #4caf50;
     text-decoration: underline;
-}
-
-/* Стили для футера */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border-radius: 8px;
 }
 
 /* Медиа-запросы для адаптации под мобильные устройства */
